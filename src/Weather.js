@@ -37,7 +37,7 @@ export default function Weather() {
             <div className="clearfix current-conditions">
               <img
                 src="http://openweathermap.org/img/wn/10d@2x.png"
-                className="float-left weather-image" alt="weather-condition"
+                className="float-left weather-image" alt="weather-condition" rel="noreferrer"
               />
               <div class="float-left">
                 <strong>{weatherData.currentTemp}</strong>
@@ -59,24 +59,15 @@ export default function Weather() {
               <li>Humidity: {weatherData.humidity}%</li>
               <li className="units">
                 Windspeed:
-                <a href="/" className="active">
+                <span className="active">
                   {weatherData.wind} MPH
-                </a>
-                |<a href="/">KPH</a>
+                </span>
+                |<span>KPH</span>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <footer>
-        <a href="https://laughing-swirles-f8bcc9.netlify.app/" target="_blank">
-          Open-sourced code{" "}
-        </a>
-        by{" "}
-        <a href="https://www.linkedin.com/in/monica-buckner/" target="_blank">
-          Monica Buckner
-        </a>
-      </footer>
     </div>
   );
 }
