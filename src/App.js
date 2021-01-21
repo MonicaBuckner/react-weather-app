@@ -4,6 +4,7 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
+      <div className="container">
     
      <h1>Weather App</h1>
      <footer> 
@@ -15,6 +16,7 @@ export default function App() {
           Monica Buckner
         </a>
     </footer>
+    </div>
     </div>
   );
 }
