@@ -1,6 +1,6 @@
 
 import './App.css';
-import ";./Weather"
+import "./Weather"
 
 export default function App() {
   return (
