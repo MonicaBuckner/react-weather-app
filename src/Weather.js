@@ -37,16 +37,16 @@ export default function Weather() {
             <div className="clearfix current-conditions">
               <img
                 src="http://openweathermap.org/img/wn/10d@2x.png"
-                className="float-left weather-image"
+                className="float-left weather-image" alt="weather-condition"
               />
               <div class="float-left">
                 <strong>{weatherData.currentTemp}</strong>
                 <span class="units">
-                  <a href="/" class="active">
+                  <span class="active">
                     {" "}
                     °F
-                  </a>{" "}
-                  | <a href="/"> °C</a>
+                  </span>{" "}
+                  | <span> °C</span>
                 </span>
               </div>
             </div>
