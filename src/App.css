@@ -1,0 +1,66 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+}
+.App h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.App form {
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+.App h3 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.App ul {
+  margin: 0;
+  padding: 0;
+}
+.App li {
+  list-style: none;
+  font-size: 16px;
+}
+.App footer {
+  text-align: center;
+  color: #5e5d5e;
+}
+.App .perimeter {
+  width: 650px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  border: 1.5px solid #5e5d5e;
+  border-radius: 10px;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+.App .top-of-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.App .weather-condition {
+  text-transform: capitalize;
+}
+.App .weather-image {
+  margin: 0 0 100;
+  position: relative;
+  top: -16px;
+}
+.App .current-conditions strong {
+  font-size: 38px;
+}
+.App .current-conditions .units {
+  position: relative;
+  top: -18px;
+}
+
+.App .units .active {
+  color: whitesmoke;
+  cursor: default;
+  text-decoration: none;
+  font-size: 18px;
+}
