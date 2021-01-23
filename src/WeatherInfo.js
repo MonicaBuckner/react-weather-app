@@ -12,7 +12,7 @@ export default function WeatherInfo(props) {
           <div className="col-6">
             <div className="clearfix current-conditions">
               <img
-                src="http://openweathermap.org/img/wn/10d@2x.png"
+                src={props.info.weatherIcon}
                 className="float-left weather-image" alt="weather-condition" rel="noreferrer"
               />
               <div class="float-left">
