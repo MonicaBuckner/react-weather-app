@@ -1,5 +1,6 @@
 import React from "react";
 import DateAndTime from "./DateAndTime";
+import UnitConversion from "./UnitConversion";
 
 export default function WeatherInfo(props) {
     return(
@@ -16,14 +17,7 @@ export default function WeatherInfo(props) {
                 className="float-left weather-image" alt="weather-condition" rel="noreferrer"
               />
               <div class="float-left">
-                <strong>{Math.round(props.info.currentTemp)}</strong>
-                <span class="units">
-                  <span class="active">
-                    {" "}
-                    °F
-                  </span>{" "}
-                  | <span> °C</span>
-                </span>
+                <UnitConversion fahrenheit={props.info.currentTemp} />
               </div>
             </div>
           </div>
